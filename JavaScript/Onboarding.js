@@ -15,3 +15,5 @@ while (true) {
     // Enter the code here
 
 }
+
+//learned: variable declaration; read input; integer conversion; print to console
