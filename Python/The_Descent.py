@@ -25,4 +25,4 @@ while True:
     # The index of the mountain to fire on.
     print(mountain)
 
-//learned: practiced loops
+# learned: practiced loops
