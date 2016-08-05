@@ -5,6 +5,6 @@ This repository contains my solutions for the puzzles at [codingame.com](https:/
 
 If you've never heard of it, it's quite fun. You should [join](https://www.codingame.com/servlet/urlinvite?u=1508172)!
 
-Check out my [codingame profile](https://www.codingame.com/profile/2bc79079757b7c07b7d017283450cac52718051).
+Check out my [CodinGame profile](https://www.codingame.com/profile/2bc79079757b7c07b7d017283450cac52718051) sometime.
 
 
