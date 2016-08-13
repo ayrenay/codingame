@@ -40,3 +40,4 @@ while True:
     print(action)
     
     # Learned: Don't try to code for all the possibilities...just KISS
+    # NTS: Used hint (Instructions)
