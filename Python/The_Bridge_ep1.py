@@ -15,11 +15,11 @@ while True:
     coord_x = int(input())  # the position on the road of the motorbike.
     action = ""
     
-    if max_speed is False and speed < gap + 1:
+    if max_speed == False and speed < gap + 1:
         action = "SPEED"
         if speed + 1 >= gap + 1:
             max_speed = True
-    elif max_speed is True or speed >= gap+1:
+    elif max_speed == True or speed >= gap+1:
         if speed > gap + 1:           
             action = "SLOW"
             max_speed = True
@@ -32,12 +32,19 @@ while True:
     else:
         print(str(coord_x)+'|'+str(road)+'|'+str(max_speed)+'|'+str(gap))
     
-    # Write an action using print
-    # To debug: print("Debug messages...", file=sys.stderr)
-
 
     # A single line containing one of 4 keywords: SPEED, SLOW, JUMP, WAIT.
     print(action)
     
     # Learned: Don't try to code for all the possibilities...just KISS
     # NTS: Used hint (Instructions)
+    #
+    # Also learned: I was wondering if I should have used '==' instead of 'is'
+    #               Apparently, '==' is for testing equality (I knew that), and
+    #               'is' tests to see if two objects point to the same thing in
+    #               memory. That is pretty different. As one source puts it,
+    #               "it may be the case that x == y [evaluates to True], but
+    #               x [is] y [evaluates to False]".
+    #               Based on this, I changed the 'is' to '==' and retested.
+    #
+    #               Reference: http://www.informit.com/articles/article.aspx?p=459269&seqNum=10
