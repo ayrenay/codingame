@@ -36,3 +36,17 @@ while (true) {
     print(rotate,power);
 }
 
+/*
+learned:
+
+Did this in Python3 first
+
+Tried a different way of printing here; I think it's more efficient since I didn't
+use any extra variables.
+
+Realize that the approach here is getting to and maintaining the upper limit for 
+the landing speed (didn't actually realize that when I solved it in Python). I 
+also noted that Fuel is an input - this is not an approach optimized for that.
+
+I'm sure it will come up in one of the future episodes for this puzzle.
+*/
